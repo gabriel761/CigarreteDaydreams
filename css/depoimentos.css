@@ -1,0 +1,53 @@
+
+.wrap{
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.featured-box {
+	float: left;
+	width: 450px;
+	margin: 50px 0 50px;
+	height: 600px;
+	border:solid 1px #a0a0a0a0;
+	padding-top: 20px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px;
+
+}
+
+
+.featured-box > img{
+	width: 80%;
+
+}
+
+.depoimento{
+	margin: 240px 0 0 40px;
+	float: right;
+	width: 500px;
+	border: solid 1px #a0a0a0a0;
+	box-shadow: 1px 1px 2px;
+	padding: 30px;
+}
+
+.depoimento > p {
+	font-size: 14pt;
+	letter-spacing:  1px;
+}
+
+@media only screen and (max-width: 1320px){
+	.depoimento{
+		margin: auto;
+		float: none;
+		clear: both;
+	}
+	.featured-box{
+		margin: 50px auto 10px ;
+		float: none;
+		clear: both;
+	}
+
+}
